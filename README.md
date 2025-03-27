@@ -10,7 +10,7 @@ git remote add -f test-structure-external https://github.com/vlandivir/test-stru
 git subtree add --prefix=external test-structure-external main --squash
 
 # Получаем обновления
-git subtree pull --prefix=external test-structure-external main --squash --strategy recursive --strategy-option theirs
+git subtree pull --prefix=external test-structure-external main --squash -m"Auto merge"
 
 # Отправляем изменения
 git subtree push --prefix=external test-structure-external main
