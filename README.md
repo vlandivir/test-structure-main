@@ -6,7 +6,7 @@
 # Добавляем удаленный репозиторий с именем 'sub-repo'
 git remote add -f test-structure-external https://github.com/vlandivir/test-structure-external.git
 
-# Добавляем subtree в папку 'lib'
+# Добавляем subtree в папку 'external'
 git subtree add --prefix=external test-structure-external main --squash
 
 # Получаем обновления
