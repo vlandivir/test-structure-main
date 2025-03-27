@@ -1,4 +1,3 @@
 "Мудрость приходит с опытом." - Русская пословица
 
-MAIN CHANGE
-EXTERNAL CHANGE
+EXTERNAL CHANGE 2
