@@ -1,0 +1,18 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  test-structure-external:
+    specifier: github:vlandivir/test-structure-external
+    version: github.com/vlandivir/test-structure-external/510509d889d1132a7f6cdf5ffae91d3ac567d6c4
+
+packages:
+
+  github.com/vlandivir/test-structure-external/510509d889d1132a7f6cdf5ffae91d3ac567d6c4:
+    resolution: {tarball: https://codeload.github.com/vlandivir/test-structure-external/tar.gz/510509d889d1132a7f6cdf5ffae91d3ac567d6c4}
+    name: test-structure-external
+    version: 1.0.0
+    dev: false
