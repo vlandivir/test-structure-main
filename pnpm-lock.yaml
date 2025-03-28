@@ -5,14 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  test-structure-external:
-    specifier: github:vlandivir/test-structure-external
-    version: github.com/vlandivir/test-structure-external/510509d889d1132a7f6cdf5ffae91d3ac567d6c4
+  '@vlandivir/test-structure-external':
+    specifier: ^1.0.0
+    version: 1.0.0
 
 packages:
 
-  github.com/vlandivir/test-structure-external/510509d889d1132a7f6cdf5ffae91d3ac567d6c4:
-    resolution: {tarball: https://codeload.github.com/vlandivir/test-structure-external/tar.gz/510509d889d1132a7f6cdf5ffae91d3ac567d6c4}
-    name: test-structure-external
-    version: 1.0.0
+  /@vlandivir/test-structure-external@1.0.0:
+    resolution: {integrity: sha512-1Wa3Q/Q8GSI2NW8gGfxAU2rL/4jmBjzhpK41AHZphvp5pnFswcaetOskHRTZpX/u2Z2OljJ1WuVkZJf/GnP2fg==, tarball: https://npm.pkg.github.com/download/@vlandivir/test-structure-external/1.0.0/3330fceb969730bb25227b5ce95916b67e2b0ba0}
     dev: false

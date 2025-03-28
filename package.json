@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "test-structure-external": "github:vlandivir/test-structure-external"
+    "@vlandivir/test-structure-external": "^1.0.0"
   }
 }
